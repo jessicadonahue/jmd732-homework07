@@ -1,0 +1,154 @@
+body {
+  padding: 50px;
+  font: 16px "Britannic Bold", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.overlay {
+	display: none;
+}
+
+.start {
+	display: none;
+}
+
+.errorOverlay {
+	border: 1px solid black;
+	height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 0.9);
+}
+
+.errortext {
+	color: red;
+	padding-top: 200px;
+	font-size: 20px;
+}
+
+.closeButton {
+	font-size: 25px;
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid red;
+	color: red;
+	background-color: white;
+}
+
+.closeButton:hover {
+	background-color: red;
+	color:white;
+	font-size: 27px;
+	border: 1px solid white;
+}
+
+.hidden {
+	display: none;
+}
+
+.title {
+	display: none;
+}
+
+
+#container {
+	vertical-align: top;
+}
+
+.dice {
+
+	display: inline-block;
+	border:1px solid black;
+	height: 50px;
+	width: 50px;
+	margin: 15px;
+	background-color: white;
+	vertical-align: top;
+}
+
+.toBePinned {
+	background-color: #bfbfbf;
+}
+
+.pinning:hover {
+	background-color: #00cc66;
+}
+
+.pinned {
+
+	background-color: #737373;
+	border: 2px solid black;
+}
+
+
+
+#buttons {
+
+
+}
+
+
+.button {
+	font-size: 20px;
+	margin: 7px;
+}
+
+.button:hover {
+
+}
+
+
+#yourScore {
+	color: green;
+}
+
+
+#win {
+	margin: auto;
+	background-color: #99ff99;
+	color: #006600;
+	width: 115px;
+	font-size: 20px;
+	border: 1px solid #006600;
+}
+
+
+#lost {
+	margin: auto;
+	background-color: #ff6666;
+	color: #cc0000;
+	width: 115px;
+	font-size: 20px;
+	border: 1px solid #cc0000;
+
+}
+
+#tie {
+	margin: auto;
+	background-color: #b3b3ff;
+	color: #0000b3;
+	width: 115px;
+	font-size: 20px;
+	border: 1px solid #0000b3;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
